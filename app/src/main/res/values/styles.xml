@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.ActionBar">
+        <!-- Atur warna tombol "Back" -->
+        <item name="colorControlNormal">@color/orange_light</item>
+        <!-- Atur warna teks judul -->
+        <item name="android:titleTextStyle">@style/MyActionBarTitleText</item>
+    </style>
+
+    <style name="MyActionBarTitleText">
+        <!-- Atur warna teks judul -->
+        <item name="android:textColor">@color/orange_light</item>
+    </style>
+
+</resources>
